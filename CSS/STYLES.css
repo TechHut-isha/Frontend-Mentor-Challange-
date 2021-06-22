@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  font-size: 15px;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+p{
+  color:  hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+.Main{
+  background-color: hsl(0, 0%, 95%);
+  position: absolute;
+  height: 500px;
+  width: 900px;
+  top: 50px;
+  left: 200px;
+}
+.attribution
+{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+.inner{
+  position: relative;
+  left: 60px;
+  top: 60px;
+
+}
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  padding: 40px 30px 50px;
+}
+.SUVs{
+  background-color: hsl(184, 100%, 22%);
+  width: 200px;
+  height: 300px;
+  padding: 40px 30px 50px;
+  position: absolute;
+  left: 260px;
+  top: 0;
+
+}
+.Luxury{
+  background-color: hsl(179, 100%, 13%);
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 520px;
+  top: 0;
+  padding: 40px 30px 50px;
+}
+.btn-sedan{
+    margin-top: 50px;
+    background: #F2F2F2;
+    background-image: -webkit-linear-gradient(top, #F2F2F2, #F2F2F2);
+    background-image: -moz-linear-gradient(top, #F2F2F2, #F2F2F2);
+    background-image: -ms-linear-gradient(top, #F2F2F2, #F2F2F2);
+    background-image: -o-linear-gradient(top, #F2F2F2, #F2F2F2);
+    background-image: -webkit-gradient(to bottom, #F2F2F2, #F2F2F2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 9px;
+    line-height: 9px;
+    color: #E38826;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 88px;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 12px;
+    border: solid #F2F2F2 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-sedan:hover {
+  background: #E38826;
+  color: #F2F2F2;
+  text-decoration: none;
+}
+.btn-suv{
+  margin-top: 50px;
+  background: #F2F2F2;
+  background-image: -webkit-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -moz-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -ms-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -o-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -webkit-gradient(to bottom, #F2F2F2, #F2F2F2);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 9px;
+  line-height: 9px;
+  color: hsl(184, 100%, 22%);;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 88px;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 12px;
+  border: solid #F2F2F2 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-suv:hover {
+background: hsl(184, 100%, 22%);
+color: #F2F2F2;
+text-decoration: none;
+}
+.btn-luxury{
+  margin-top: 50px;
+  background: #F2F2F2;
+  background-image: -webkit-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -moz-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -ms-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -o-linear-gradient(top, #F2F2F2, #F2F2F2);
+  background-image: -webkit-gradient(to bottom, #F2F2F2, #F2F2F2);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 9px;
+  line-height: 9px;
+  color:hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca', sans-serif;
+  width: 88px;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 12px;
+  border: solid #F2F2F2 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-luxury:hover {
+background: hsl(179, 100%, 13%);
+color: #F2F2F2;
+text-decoration: none;
+}
